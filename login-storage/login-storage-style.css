@@ -28,7 +28,8 @@
     border-radius: 5px;
     box-sizing: border-box;
     background-color: white;
-    z-index: 9999999999999991;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999999999999999;
 }
                                                                 
 #loginStorage-loginPage-loginBox title {
