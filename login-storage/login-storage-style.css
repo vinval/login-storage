@@ -1,0 +1,115 @@
+#loginStorage-loginPage-wrapper {
+    position: fixed;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 9999999999999990;
+}
+
+#loginStorage-loginPage-loginBox {
+    position: fixed;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -200px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 9999999999999991;
+}
+                                                                
+#loginStorage-loginPage-loginBox title {
+    margin-top: 0;
+    display: inline-block;
+    width: 300px;
+    font-size: 30px;
+}
+
+#loginStorage-loginPage-loginBox form {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+        
+#loginStorage-loginPage-loginBox form label {
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+#loginStorage-loginPage-loginBox form input {
+    margin-top: 10px;
+    display: inline-block;
+    width: 270px;
+    height: 20px;
+    font-size: 14px;
+}
+
+#loginStorage-loginPage-loginBox form buttons {
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+}
+
+#loginStorage-loginPage-loginBox form button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#loginStorage-loginPage-loginBox form button {
+    width: 290px;
+    height: 30px;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+}
+.loginStorage-message {
+    display: none;
+    position: absolute;
+    background: red;
+    border-radius: .4em;
+    min-height: 50px;
+    width: 170px;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 285px;
+    margin-top: -45px;
+}
+
+.loginStorage-message span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.loginStorage-message:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right-color: red;
+    border-left: 0;
+    margin-top: -10px;
+    margin-left: -10px;
+}
